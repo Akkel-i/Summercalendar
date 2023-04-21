@@ -1,1 +1,2 @@
 # Summercalendar
+Meidän ryhmätyö jeejee!
