@@ -1,113 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="tyylit.css">
 
-  
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kesäkalenteri</title>
 
-</head>
-<body>
-    <h1>kesäkalenteri</h1>
+        <link rel="stylesheet" href="tyylit.css">
+        <script src="java.js"></script>
+                                        
+    </head>
+    <body>
 
-<!-- Slideshow container -->
-<div class="slideshow-container fade">
-
-    <!-- Full images with numbers and message Info -->
-    <div class="Containers">
-      <div class="MessageInfo">1 / 13</div>
-      <img src="kuva.jpg" style="width:100%">
-      <div class="Info">First caption</div>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="java.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" />
+  <link href="tyylit.css" rel="stylesheet" />
+  <div class="container-fluid">
+    <h1 class="text-center mb-3">Bootstrap Multi-Card Carousel</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner row w-100 mx-auto">
+        <div class="carousel-item col-md-4 active">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f44242/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 1</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/418cf4/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 2</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/3ed846/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 3</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/42ebf4/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 4</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f49b41/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 5</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/f4f141/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 6</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://placehold.it/800x600/8e41f4/fff" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card 7</h4>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  
-    <div class="Containers">
-      <div class="MessageInfo">2 / 13</div>
-      <img src="kuvaa.jpg" style="width:100%">
-      <div class="Info">Second Caption</div>
-    </div>
-  
-    <div class="Containers">
-      <div class="MessageInfo">3 / 13</div>
-      <img src="kuva.jpg" style="width:100%">
-      <div class="Info">Third Caption</div>
-    </div>
-
-    <div class="Containers">
-        <div class="MessageInfo">4 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">5 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">6 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">7 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">8 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">9 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">10 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">11 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">12 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-
-      <div class="Containers">
-        <div class="MessageInfo">13 / 13</div>
-        <img src="kuva.jpg" style="width:100%">
-        <div class="Info">Third Caption</div>
-      </div>
-  
-    <!-- Back and forward buttons -->
-    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
   </div>
-  <br>
-  
-  <!-- The circles/dots -->
-  <div style="text-align:center">
-    <span class="dots" onclick="currentSlide(1)"></span>
-    <span class="dots" onclick="currentSlide(2)"></span>
-    <span class="dots" onclick="currentSlide(3)"></span>
-  </div> 
+    </body>
 
-    <script src="java.js"></script>
-</body>
 </html>
