@@ -26,9 +26,15 @@ $(document).ready(function() {
 function change_image1() {
   if (document.getElementById("luukku1").src == "Kuvat/question_mark.png"){
       document.getElementById("luukku1").src = "Kuvat/kuva.jpg";
+      document.getElementById("card-title").innerHTML = "New Card Title"; // tällä sai vaihdettuu myös ton tekstin <3
+  document.getElementById("card-text").innerHTML = "New Card Text";
+      
   } else {
       document.getElementById("luukku1").src = "Kuvat/kuva.jpg";
+      document.getElementById("card-title").innerHTML = "New Card Title"; 
+  document.getElementById("card-text").innerHTML = "New Card Text";
   }
 }
+
 
 
