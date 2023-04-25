@@ -30,3 +30,5 @@ function change_image1() {
       document.getElementById("luukku1").src = "Kuvat/kuva.jpg";
   }
 }
+
+
