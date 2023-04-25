@@ -22,3 +22,11 @@ $(document).ready(function() {
     }
   });
 });
+
+function change_image1() {
+  if (document.getElementById("luukku1").src == "Kuvat/question_mark.png"){
+      document.getElementById("luukku1").src = "Kuvat/kuva.jpg";
+  } else {
+      document.getElementById("luukku1").src = "Kuvat/kuva.jpg";
+  }
+}
